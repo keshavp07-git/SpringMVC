@@ -1,0 +1,21 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  <servlet-name>keshav</servlet-name>
+  <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class> <!-- Maven Dependencies/ Spring-MVC/..web.servlet/DispatcherServlet -->
+  </servlet>
+  <!-- Here we are creating Dispatcher Servlet -->
+  
+  
+  <servlet-mapping>
+  <servlet-name>keshav</servlet-name>
+  <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>
+<!-- Here we are Mapping our home page url which in "/"with Dispatcher Servlet using with same servlet
+name that is keshav and also with this servletname our dispatch servelet file will be made in "keshav-servlet.xml"
+  -->
